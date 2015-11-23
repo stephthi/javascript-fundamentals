@@ -3,6 +3,7 @@ function fortuneTeller(children, partner, location, job) {
 	return output;
 }
 
+fortuneTeller(3, "Fiona", "Toronto", "doctor")
 
 function ageCalculator(birthYear, currentYear) {
 	var age = currentYear - birthYear;
@@ -11,12 +12,16 @@ function ageCalculator(birthYear, currentYear) {
 	return output;
 }
 
+ageCalculator(1990, 2015)
+
 function supplyCalculator(currentAge, maxAge, amount) {
 	var lifespan = maxAge - currentAge;
 	var foodAmount = lifespan * amount;
 	var output = "You will need " + foodAmount + " to last you until the ripe old age of " + lifespan + "." ;
 	return output;
 }
+
+supplyCalculator(21, 90, 3)
 
 function geometrizer(radius) {
 	var circumference = 2 * radius * 3.14;
@@ -25,13 +30,20 @@ function geometrizer(radius) {
 	return output;
 }
 
+geometrizer(10)
+
 function tempCalculator(celcius) {
 	var fahrenheit = celcius * 1.8 + 32;
 	var output = celcius + "°C is " + fahrenheit + "°F.";
 	return output;
+}
+
+tempCalculator(30)
 
 function celciusCalc(fahrenheit)
 	var celcius = (fahrenheit - 32) / 1.8;
 	var output = fahrenheit + "°F is " + celcius + "°C.";
 	return output;
 }
+
+celciusCalc(88)
