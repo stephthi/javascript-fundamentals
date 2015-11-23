@@ -3,7 +3,7 @@ function fortuneTeller(children, partner, location, job) {
 	return output;
 }
 
-fortuneTeller(3, "Fiona", "Toronto", "doctor")
+fortuneTeller(3, "Fiona", "Toronto", "doctor");
 
 function ageCalculator(birthYear, currentYear) {
 	var age = currentYear - birthYear;
@@ -12,7 +12,7 @@ function ageCalculator(birthYear, currentYear) {
 	return output;
 }
 
-ageCalculator(1990, 2015)
+ageCalculator(1990, 2015);
 
 function supplyCalculator(currentAge, maxAge, amount) {
 	var lifespan = maxAge - currentAge;
@@ -21,7 +21,7 @@ function supplyCalculator(currentAge, maxAge, amount) {
 	return output;
 }
 
-supplyCalculator(21, 90, 3)
+supplyCalculator(21, 90, 3);
 
 function geometrizer(radius) {
 	var circumference = 2 * radius * 3.14;
@@ -30,7 +30,7 @@ function geometrizer(radius) {
 	return output;
 }
 
-geometrizer(10)
+geometrizer(10);
 
 function tempCalculator(celcius) {
 	var fahrenheit = celcius * 1.8 + 32;
@@ -38,7 +38,7 @@ function tempCalculator(celcius) {
 	return output;
 }
 
-tempCalculator(30)
+tempCalculator(30);
 
 function celciusCalc(fahrenheit)
 	var celcius = (fahrenheit - 32) / 1.8;
@@ -46,4 +46,4 @@ function celciusCalc(fahrenheit)
 	return output;
 }
 
-celciusCalc(88)
+celciusCalc(88);
