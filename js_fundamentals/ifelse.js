@@ -6,7 +6,7 @@ function greaterNum(first, second) {
 	}
 }
 
-greaterNum(5, 10)
+greaterNum(5, 10);
 
 function helloWorld(language){
  if (language == 'en'){
@@ -18,7 +18,7 @@ function helloWorld(language){
  }
 }
 
-helloWorld('en')
+helloWorld('en');
 
 function assignGrade(number){
 	if (number >= 80){
@@ -34,7 +34,7 @@ function assignGrade(number){
 	}
 }
 
-assignGrade(89)
+assignGrade(89);
 
 function pluralizar(noun, number){
 	if (number > 1){
@@ -44,4 +44,4 @@ function pluralizar(noun, number){
 	}
 }
 
-pluralizar('elephant', 3)
+pluralizar('elephant', 3);
